@@ -6,13 +6,13 @@ for i in range(l):
     nums.append(e)
 print(nums)
 d={}
-a=[]
+
 for n in nums:
     if n not in d:
         d[n]=1
     else:
         d[n]+=1
-
+a=[]
 for n in d:
     if d[n] % 2 == 0:
         a.append(n)
